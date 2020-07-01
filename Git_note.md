@@ -15,6 +15,8 @@
   - This cmd to upload local or file you just change it to reposityry.
 * git pull
   - this cmd for download latest change from reposityry.
-* git log
+* git log, git reflog
   - see git log
+* git reset --hard <commit>
+  - This commad for rollback to previous commit
 
