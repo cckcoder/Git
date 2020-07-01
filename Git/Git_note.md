@@ -21,3 +21,7 @@
   - This commad for rollback to previous commit
 * git branch
   - See list of git branch
+* git branch <name>
+  - Create new branch from master
+* git checkout <branch>
+  - switch to other brance
