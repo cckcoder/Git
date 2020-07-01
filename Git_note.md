@@ -15,3 +15,6 @@
   - This cmd to upload local or file you just change it to reposityry.
 * git pull
   - this cmd for download latest change from reposityry.
+* git log
+  - see git log
+
