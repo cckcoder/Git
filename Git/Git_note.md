@@ -19,4 +19,5 @@
   - see git log
 * git reset --hard <commit>
   - This commad for rollback to previous commit
-
+* git branch
+  - See list of git branch
