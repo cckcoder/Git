@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hover</title>
+  <style>
+    button {
+      width: 200px;
+      height: 50px;
+      font-size: 24px;
+      background-color: green;
+    }
+
+    button:hover {
+      background-color: orange;
+    }
+
+    a::before {
+      content: "\21d2 click here: ";
+      font-weight: 400;
+    }
+
+    #content::selection {
+      color: red;
+      background-color: yellow;
+    }
+
+  </style>
+</head>
+<body>
+  <button>Click me!</button>
+  <ul>
+    <li>
+      <a href="#">One link</a>
+    </li>
+    <li>
+      <a href="#">Two link</a>
+    </li>
+  </ul>
+  <div id="content">Lorem hic dolorem aut temporibus ad Perferendis error temporibus vero sit voluptatem molestias. Placeat exercitationem possimus asperiores possimus quisquam Est rem vitae neque ipsum delectus? Autem accusamus quia labore repellat</div>
+</body>
+</html>
