@@ -24,4 +24,20 @@
 * git branch <name>
   - Create new branch from master
 * git checkout <branch>
-  - switch to other brance
+  - switch to other branch
+
+## Remote
+
+- git fetch
+  - This cmd will download latest commits from Server(Repository)
+  - to local(your compouter), it have name "origin/master" (That mean branch from server)
+
+* git merge origin/master
+  - it mean you merge local master branch with latest commits also master
+
+# Forks
+
+- Copy base of original to separate version (for your own)
+
+# Pull Requests
+
